@@ -1,0 +1,156 @@
+*{
+  box-sizing: border-box;
+}
+body, html{
+  height: 100vh;
+  overflow: hidden;
+}
+/* div{
+  width: 200px;
+  height: 100px;
+  outline: 1px solid
+} */
+section{
+  // display: none;
+  height: 100vh;
+  width: 100%;
+  padding: 10vh;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  &.active{
+    // display: block;
+    opacity: 1;
+  }
+   p{
+    color: #fff;
+  }
+  &:nth-child(even){
+    background-color: green;
+    // background-image: url(http://cs9492.vk.me/u1668341/-6/z_9463ab1e.jpg);
+   
+  }
+  h2{
+    color: #fff;
+  }
+ 
+}
+#textfield{
+  position: fixed;
+  top: 5;
+  left: 5;
+  color: #fff;
+  font-size: 30px;
+  z-index: 90;
+}
+.pagination{
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 99;
+}
+.pag-item{
+ width: 20px;
+ height: 20px;
+  border-radius: 50%;
+  border:1px solid #fff;
+  cursor: pointer;
+  margin-bottom: 5px;
+  &.active, &:active{
+    background-color: #fff;
+  }
+}
+
+/* ==== FULL SCREEN HEADER ==== */
+
+.video
+position:fixed;
+z-index:-1;
+
+@media (min-aspect-ratio:16/9) {
+#video {
+width:100%;
+height:auto;
+}
+}
+
+@media (max-aspect-ratio:16/9) {
+#video {
+width:auto;
+height:100%;
+}
+}
+
+@media (max-width: 767px) {
+#video {
+display: none;
+}
+body {
+background: url("videoBG.png");
+background-size: cover;
+}
+}
+
+.cover {
+	background:url(video.mp4) no-repeat center;
+  background-size:cover;
+  height: 100vh;
+  width: 100vw;
+  color: #000000;
+	font-family: "Oswald";
+  text-align:right;
+  display: table;
+  margin: 0
+}
+
+.wrapper {
+	display: table-cell;
+  vertical-align: middle;
+	padding: 0.625rem;
+}
+
+.headline {
+	font-size:3rem;
+	margin: 3rem;
+  display: no-repeat;
+}
+
+@media screen and (min-width: 1224px) {
+
+	.headline {
+		font-size: 5rem;
+	}
+
+}
+
+.tagline {
+	font-size: 2.5rem;
+	line-height: 1.5rem;
+  color:#000000;
+  display: no-repeat;
+  margin: 3rem;
+}
+
+
+ .content
+{
+  font-size:24px;
+  text-align:left;
+  font-family: 'Oswald', sans-serif;
+  color: #636363;
+}
+
+
+.counter
+{
+  font-size:180px;
+  text-align:center;
+  font-family: 'Oswald', sans-serif;
+   color:#000000;
+}
