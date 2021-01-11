@@ -2,7 +2,7 @@
 <p> This is a data journalism project runned for the MA in Data Journalism at Birmingham City University (BCU). </p>
 <p> Website: https://biafarrugia.github.io/coronavirus-deadliest-day-2020/
 <p>
-<b> Methodology </b>:
+<b> Methodology:</b>
 <p> Between 11th-21st January 2020, national data comes from the World Health Organization (WHO).
 <p> From 22nd January 2020, national and local data come from the Johns Hopkins University (JHU).
 <p> Population data from the World Bank.
