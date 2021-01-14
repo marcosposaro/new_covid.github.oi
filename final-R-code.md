@@ -596,7 +596,7 @@ write.csv(jhudata_deaths_date,'jhudata_deaths_date.csv')
 ```
 
 
-###############################################################################
+####
 #Weeks after I finished this code, I´ve discovered a new COVID-19 dataset containing granular data about geolocation. So I´ve decided to use it to improve my data analysis.  
 
 #Getting the data from a URL
