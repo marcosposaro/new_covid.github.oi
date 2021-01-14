@@ -586,7 +586,7 @@ countries_deadliest_day <- sqldf('select * from jhudata, deadliest_day where jhu
 countries_deadliest_day<- subset(countries_deadliest_day, select = -c(3))
 ``` 
 
-#Saving the new datasets as CSV file
+#Saving the new datasets as CSV files
 ```{r}
 write.csv(countries_deadliest_day,'countries_deadliest_day.csv')
 ```
