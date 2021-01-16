@@ -469,7 +469,7 @@ jhudata <- ddply(jhudata,
       )
 ```
 
-#As the Johns Hopkins dataset starts on 22nd January, I used a dataset from the WHO for the previous days, detailing each death. In this step, we are going to join the WHO numbers to the JHU spreadsheet, correcting the number of deaths on 22nd January (from 17 deaths to 11).
+#As the Johns Hopkins University dataset starts on 22nd January, I used a dataset from the WHO for the previous days, detailing each death. In this step, we are going to join the WHO numbers to the JHU spreadsheet, correcting the number of deaths on 22nd January (from 17 deaths to 11).
 #Later, I´ll insert new columns for the days 11th (when the first death was registered) to 21st January. 
 
 ```{r}
