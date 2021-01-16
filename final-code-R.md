@@ -5,7 +5,7 @@ output: html_notebook
 
 #In this file, we are going to work with a COVID-19 dataset from the Johns Hopkins University and the World Health Organization (WHO). The aim is to answer the following questions:
 # 1. What was the deadliest day in 2020?
-# 2. How many deaths were registered in this exactly day by country/Where did the deaths happen?
+# 2. How many deaths were registered on this exact day by country/Where did the deaths happen?
 # 3. A COVID-19 ranking by the deadliest days in 2020.
 
 #Firstly, we need to install the httr package to get the dataset from a URL:
