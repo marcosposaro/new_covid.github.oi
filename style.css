@@ -179,14 +179,15 @@ body {
 
 .fold8
 {
-   margin: 0 auto;
+    margin: 0 auto;
     padding: 0 2em;
     max-width: 800px;
     margin-bottom: 50px;
-    line-height: 1.6em;
   font-family: 'Source Sans Pro', sans-serif;
-  color:#403d39;
-   background-color:#fffcf2
+  text-align: center;
+  color:#fffcf2;
+  background-color:#884125
+}
 }
 
 .c
