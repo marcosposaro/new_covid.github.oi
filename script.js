@@ -15,3 +15,5 @@ setInterval(updateAmount, 1000);
 
 /* ==== SCROLL REVEAL==== */
 ScrollReveal().reveal('.fold1', {delay: 100});
+ScrollReveal().reveal('.fold8', {delay: 100});
+ScrollReveal().reveal("h2", {delay: 100});
