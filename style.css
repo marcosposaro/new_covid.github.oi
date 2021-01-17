@@ -6,19 +6,27 @@
 
 /* ==== HEADER ==== */
 .cover {
-	background:url(video.mp4) no-repeat center;
+background:url(video.mp4) no-repeat center;
   background-size: cover;
   height: 100vh;
   width: 100vw;
- 	font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif;
   text-align:right;
   display: table;
  }
 
 .wrapper {
-	display: table-cell;
   vertical-align: middle;
-	padding: 0.625rem;
+position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    box-sizing: border-box;
 }
 
 .headline {
@@ -27,7 +35,7 @@
   color: #ccc59b
 }
 
-@media screen and (min-width:1224px) {
+@media screen and (max-width:1224px) {
 
 	.headline {
 		font-size:3rem;
@@ -43,7 +51,7 @@
 }
 
 
-@media screen and (min-width: 1224px) {
+@media screen and (mmax-width: 1224px) {
 
 	.tagline{
 		font-size: 2rem;
@@ -59,7 +67,7 @@
 }
 
 
-@media screen and (min-width: 1224px) {
+@media screen and (max-width: 1224px) {
 
 	.name{
 		font-size: 1rem;
@@ -68,8 +76,8 @@
 
 }
 .byline h2 {
-	font-size: 0.8rem;
-	line-height: 1.5rem;
+	font-size: 1.5rem;
+	line-height: 1rem;
 	letter-spacing: .1rem;
 	margin-bottom: .5rem;
 	text-transform: uppercase;
