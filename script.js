@@ -14,6 +14,6 @@ function updateAmount(){   console.log("updateAmount running");
 setInterval(updateAmount, 1000); 
 
 /* ==== SCROLL REVEAL==== */
-ScrollReveal().reveal('.fold1', {delay: 100});
-ScrollReveal().reveal('.fold8', {delay: 100});
-ScrollReveal().reveal("h2", {delay: 100});
+ScrollReveal().reveal('.fold1', {delay: 150});
+ScrollReveal().reveal('.fold8', {delay: 150});
+ScrollReveal().reveal('content-subhead', {delay: 150});
