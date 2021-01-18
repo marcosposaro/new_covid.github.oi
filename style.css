@@ -22,34 +22,36 @@
 }
 
 .headline {
-	font-size:7rem;
+	font-size:4rem;
 	margin: 0.5rem;
   color: #e0e0e0;
-   font-family: 'Six Caps', sans-serif;
+  font-family: 'Coda Caption', sans-serif;
 }
 
 @media screen and (min-width:1224px) {
 
 	.headline {
-		font-size:7rem;
+		font-size:4rem;
      color:#ccc59b;
+    font-family: 'Coda Caption', sans-serif;
 	}
 
 }
 
 .tagline {
-	font-size: 4rem;
+	font-size: 2rem;
 	margin: 0.5rem;
-  color:#ccc59b;;
+  color:#ccc59b;
+  font-family: 'Coda Caption', sans-serif;
 }
 
 
 @media screen and (min-width: 1224px) {
 
 	.tagline{
-		font-size: 4rem;
+		font-size: 2rem;
      color:#ccc59b;
-     font-family: 'Six Caps', sans-serif;
+    font-family: 'Coda Caption', sans-serif;
 	}
 
 }
@@ -58,6 +60,7 @@
 	font-size: 3rem;
 	margin: 1.5rem;
   color:#ccc59b;
+   font-family: 'Source Sans Pro', sans-serif;
   
 }
 
@@ -84,6 +87,7 @@
 
 body {
  background-color:#fffcf2;
+ font-size: 20px;
 }
 
 .content-subhead {
