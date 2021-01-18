@@ -1,0 +1,343 @@
+/* ==== GENERAL STYLES ==== */
+
+* {
+	box-sizing: border-box;
+}
+
+/* ==== HEADER ==== */
+.cover {
+	background:url(covid.jpg) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Six Caps', sans-serif;
+  text-align:right;
+  display: table;
+ }
+
+.wrapper {
+	display: table-cell;
+  vertical-align: middle;
+	padding: 2.5rem;
+}
+
+.headline {
+	font-size:7rem;
+	margin: 0.5rem;
+  color: #e0e0e0;
+   font-family: 'Six Caps', sans-serif;
+}
+
+@media screen and (min-width:1224px) {
+
+	.headline {
+		font-size:7rem;
+     color:#ccc59b;
+	}
+
+}
+
+.tagline {
+	font-size: 4rem;
+	margin: 0.5rem;
+  color:#ccc59b;;
+}
+
+
+@media screen and (min-width: 1224px) {
+
+	.tagline{
+		font-size: 4rem;
+     color:#ccc59b;
+     font-family: 'Six Caps', sans-serif;
+	}
+
+}
+
+.name {
+	font-size: 3rem;
+	margin: 1.5rem;
+  color:#ccc59b;
+  
+}
+
+
+@media screen and (max-width: 1224px) {
+
+	.name{
+		font-size: 1rem;
+     color:#ccc59b;
+     font-family: 'Source Sans Pro', sans-serif;
+	}
+
+}
+.byline {
+	font-size: 0.8rem;
+	line-height: 0.5rem;
+	letter-spacing: .1rem;
+	margin-bottom: .5rem;
+  color:#ccc59b;
+  
+}
+  
+/* ==== FOLDS AND CONTENTS ==== */
+
+body {
+ background-color:#fffcf2;
+}
+
+.content-subhead {
+  font-weight: 100;
+  font-family: 'Six Caps', sans-serif;
+   color:#868179;
+  font-size: 80px;
+}
+
+.fold1
+{
+    margin: 0 auto;
+    padding: 0 2em;
+    max-width: 800px;
+    margin-bottom: 50px;
+    text-align: center;
+  color:#fffcf2;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color:#868179;
+   font-size: 22px;
+   letter-spacing: .1em;
+        } 
+
+.fold2
+{
+    margin: 0 auto;
+    padding: 0 2em;
+    max-width: 800px;
+    margin-bottom: 50px;
+    line-height: 1.6em;
+  font-family: 'Source Sans Pro', sans-serif;
+    color:#403d39;
+   background-color:#fffcf2
+}
+
+.fold3
+{
+   margin: 0 auto;
+    padding: 0 2em;
+    max-width: 800px;
+    margin-bottom: 50px;
+    line-height: 1.6em;
+  font-family: 'Source Sans Pro', sans-serif;
+   color:#403d39;
+   background-color:#fffcf2
+}
+
+.fold4
+{
+ margin: 0 auto;
+    padding: 0 2em;
+    max-width: 800px;
+    margin-bottom: 50px;
+    line-height: 1.6em;
+  font-family: 'Source Sans Pro', sans-serif;
+    color:#403d39;
+   background-color:#fffcf2
+}
+
+.fold5
+{
+ margin: 0 auto;
+    padding: 0 2em;
+    max-width: 800px;
+    margin-bottom: 50px;
+    line-height: 1.6em;
+  font-family: 'Source Sans Pro', sans-serif;
+    color:#403d39;
+   background-color:#fffcf2
+}
+
+.fold6
+{
+   margin: 0 auto;
+    padding: 0 2em;
+    max-width: 800px;
+    margin-bottom: 50px;
+    line-height: 1.6em;
+  font-family: 'Source Sans Pro', sans-serif;
+    color:#403d39;
+   background-color:#fffcf2
+}
+
+.fold7
+{
+   margin: 0 auto;
+    padding: 0 2em;
+    max-width: 800px;
+    margin-bottom: 50px;
+    line-height: 1.6em;
+  font-family: 'Source Sans Pro', sans-serif;
+  color:#403d39;
+   background-color:#fffcf2
+}
+
+.fold8
+{
+    margin: 0 auto;
+    padding: 0 2em;
+    max-width: 800px;
+    margin-bottom: 50px;
+ font-family: 'Source Sans Pro', sans-serif;
+  background-color:#868179;
+  text-align: center;
+  color:#fffcf2;
+   font-size: 22px;
+}
+
+
+.fold9
+{
+  font-family: 'Source Sans Pro', sans-serif;
+  color:#403d39;
+   background-color:#fffcf2;
+     font-size: 20px;
+}
+
+.methodology
+{
+  font-family: 'Source Sans Pro', sans-serif;
+  color:#403d39;
+   background-color:#fffcf2;
+     font-size: 20px;
+}
+
+.c
+{text-align: center;
+font-family: 'Source Sans Pro', sans-serif;
+  background-color:#868179;
+  color:#fffcf2;
+   font-size: 22px;
+  
+ }
+
+.counter {
+  font-size: 80px;
+}
+
+.responsive { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+figure figcaption {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  padding: 1rem 0;
+}
+
+.botao-wpp {
+  text-decoration:none;
+  color: #ffffff;
+  display: inline-block;
+  background-color: #2c2c2c;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 3px;
+}
+
+.graph {
+  background-color:#fffcf2;
+  font-size: 30px;
+  font-weight: 280;
+  font-family: 'Source Sans Pro', sans-serif;
+   color:#868179;
+   text-align: center;
+     }
+
+.graph2 {
+  background-color:#fffcf2;
+  font-size: 20px;
+  font-weight: 280;
+  font-family: 'Source Sans Pro', sans-serif;
+   color:#868179;
+   text-align: center;
+     }
+/* ==== DISABLE THE HORIZONTAL SCROLLBAR.  ==== */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+textarea {
+    resize: none;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+@charset "UTF-8";
+
+.svg-inline--fa {
+  vertical-align: -0.200em;
+}
+.rounded-social-buttons {
+  text-align: left;
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.rounded-social-buttons .fa-twitter, .fa-facebook-f {
+  font-size: 25px;
+}
+
+.rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
+}
+
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+  color: #3b5998;
+  background: #fefefe;
+  border-color: #3b5998;
+}
+
+.rounded-social-buttons .social-button.twitter {
+  background: #55acee;
+}
+
+.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+  color: #55acee;
+  background: #fefefe;
+  border-color: #55acee;
+}
