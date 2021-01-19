@@ -635,7 +635,7 @@ and COVID19.Type = "Deaths" and COVID19.Cases_New > 0')
 ```{r}
 countries_deadliest_day2 <- new_table %>% filter(Date == "2020-12-29")
 ```
-#Saving the new deadliest table:
+#Saving the new table:
 
 ```{r}
 write.csv(countries_deadliest_day2,'countries_deadliest_day2.csv')
