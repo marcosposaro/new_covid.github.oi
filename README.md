@@ -1,5 +1,5 @@
 <h1> <b> Coronavirus: The deadliest day in 2020 </b> </h1>
-<p> This is a data journalism project runned for the MA in Data Journalism at Birmingham City University (BCU). </p>
+<p> This is a data journalism project created for the MA in Data Journalism at Birmingham City University (BCU). </p>
 <p> Website: https://biafarrugia.github.io/coronavirus-deadliest-day-2020/
 <p>
 <b> Methodology:</b>
