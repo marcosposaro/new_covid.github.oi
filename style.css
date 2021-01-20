@@ -28,7 +28,7 @@ background:url(covid.jpg) no-repeat center;
   font-family: 'Coda Caption', sans-serif;
 }
 
-@media screen and (min-width:1224px) {
+@media screen and (max-width:1224px) {
 
 	.headline {
 		font-size:2rem;
@@ -46,7 +46,7 @@ background:url(covid.jpg) no-repeat center;
 }
 
 
-@media screen and (min-width: 1224px) {
+@media screen and (max-width: 1224px) {
 
 	.tagline{
 		font-size: 1.5rem;
