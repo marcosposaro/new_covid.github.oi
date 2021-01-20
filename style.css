@@ -87,7 +87,7 @@ background:url(covid.jpg) no-repeat center;
 
 body {
  background-color:#ffffff;
- font-size: 24px;
+ font-size: 25px;
  overflow-x: hidden; 
 }
 
@@ -95,7 +95,7 @@ body {
   font-weight: 100;
   font-family: 'Six Caps', sans-serif;
    color:#232c39;
-  font-size: 85px;
+  font-size: 90px;
 }
 
 .fold1
@@ -115,7 +115,7 @@ body {
 .fold2
 {
     margin: 0 auto;
-    padding: 0 2em;
+    padding: 0 0em;
     max-width: 800px;
     margin-bottom: 50px;
     line-height: 1.6em;
@@ -127,7 +127,7 @@ body {
 .fold3
 {
    margin: 0 auto;
-    padding: 0 2em;
+    padding: 0 0em;
     max-width: 800px;
     margin-bottom: 50px;
     line-height: 1.6em;
@@ -139,7 +139,7 @@ body {
 .fold4
 {
  margin: 0 auto;
-    padding: 0 2em;
+    padding: 0 0em;
     max-width: 800px;
     margin-bottom: 50px;
     line-height: 1.6em;
@@ -151,7 +151,7 @@ body {
 .fold5
 {
  margin: 0 auto;
-    padding: 0 2em;
+    padding: 0 0em;
     max-width: 800px;
     margin-bottom: 50px;
     line-height: 1.6em;
